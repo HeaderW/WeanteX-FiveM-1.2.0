@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="notify.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\auth\Auth.h" />
+    <ClInclude Include="Cheat\auth\xor.h" />
+    <ClInclude Include="Cheat\auth\xorstr.h" />
+    <ClInclude Include="Cheat\blur\directx_blur.h" />
+    <ClInclude Include="Cheat\blur\pshader.hpp" />
+    <ClInclude Include="Cheat\mjlib\Console.hpp" />
+    <ClInclude Include="Cheat\mjlib\Logger.hpp" />
+    <ClInclude Include="Cheat\mjlib\mjLib.hpp" />
+    <ClInclude Include="Cheat\mjlib\Process.hpp" />
+    <ClInclude Include="Cheat\mjlib\String.hpp" />
+    <ClInclude Include="Cheat\obfs\imports.hpp" />
+    <ClInclude Include="Cheat\obfs\pe.hh" />
+    <ClInclude Include="Cheat\obfs\xor.hh" />
+    <ClInclude Include="Cheat\Cheat.hpp" />
+    <ClInclude Include="Cheat\DrawImGui.hpp" />
+    <ClInclude Include="Cheat\Fonts.hpp" />
+    <ClInclude Include="Cheat\Game.hpp" />
+    <ClInclude Include="Cheat\GameSDK.hpp" />
+    <ClInclude Include="Cheat\github_loader.h" />
+    <ClInclude Include="Cheat\Items.hpp" />
+    <ClInclude Include="Cheat\Logo.hpp" />
+    <ClInclude Include="Cheat\Memory.hpp" />
+    <ClInclude Include="Cheat\Menu.hpp" />
+    <ClInclude Include="Cheat\Overlay.hpp" />
+    <ClInclude Include="Cheat\Ped.hpp" />
+    <ClInclude Include="Cheat\SimpleMath.h" />
+    <ClInclude Include="Cheat\skStr.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\audio\audio_data.cpp" />
+    <ClCompile Include="Cheat\github_loader.cpp" />
+    <ClCompile Include="Cheat\ScreenshotManager.cpp" />
+    <ClCompile Include="audio\audio_data.cpp" />
+    <ClCompile Include=".\KelesDispo\imgui.cpp" />
+    <ClCompile Include=".\KelesDispo\imgui_draw.cpp" />
+    <ClCompile Include=".\KelesDispo\imgui_freetype.cpp" />
+    <ClCompile Include=".\KelesDispo\imgui_tables.cpp" />
+    <ClCompile Include=".\KelesDispo\imgui_widgets.cpp" />
+    <ClCompile Include=".\KelesDispo\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include=".\KelesDispo\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include=".\KelesDispo\custom_widgets.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cheat\SimpleMath.inl" />
+    <None Include=".\KelesDispo\misc\debuggers\imgui.natstepfilter" />
+    <None Include=".\KelesDispo\misc\debuggers\imgui.natvis" />
+    <None Include="logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include=".\KelesDispo\freetype\win64\freetype.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+</Project>
