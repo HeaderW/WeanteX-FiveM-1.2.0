@@ -1,8 +1,7 @@
-# WeanteX FiveM Private | Legacy v1.2.0
+# WeanteX FiveM Private |
 
 <div align="center">
   <img src="https://img.shields.io/badge/Version-1.2.0-F5363F?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Legacy%20/%20Archived-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B" />
 </div>
 
